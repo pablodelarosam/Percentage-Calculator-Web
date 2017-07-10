@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Calculator</title>
+    
+    </head>
+<body>
+    
+    <h1 style="text-align:center;"> Percentage Calculator </h1>
+    <p> Enter values</p>
+    <form id="xiswhatofy">
+    <input type="text" id="field1"> and
+    <input type="text" id="field2"> ? <br> <br>
+    <input type="submit"  value="Calculate">
+        
+        <select id="mySelect" style="margin-left:5%;" onchange=""> 
+  <option value="">-- Choose your operation --</option> 
+  <option value="one">X is what percentage of Y?</option> 
+  <option value="two">X is Y% of what?</option> 
+  <option value="three">What % of X is Y?</option>
+            <option value="four">X% of what is Y?</option>
+            <option value="five">Y% of X is what?</option>
+</select> 
+        
+    </form>
+    <button onclick="myFunc()" style="margin-top:5%;"  id="buttonc"> Calculate</button>
+    
+    <h3 id="result"> Result:   100% </h3>
+    
+    <h3 id="operation"> Math operation result:  </h3>
+    
+    <h3 id="math"> </h3>
+    
+    <script type="text/javascript" src="calc.js"></script>
+    </body>
+</html>
